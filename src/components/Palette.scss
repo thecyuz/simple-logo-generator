@@ -1,0 +1,25 @@
+.palette {
+    & table {
+        border-collapse: collapse;
+        background-color: #11111b;
+        width: 100%;
+        box-shadow: 2px 2px 2px #181825;
+    }
+
+    & td {
+        border: 1px solid #181825;
+        padding: 10px;
+    }
+
+    & input {
+        border: 1px solid var(--border-color);
+
+        &[type="number"] {
+            width: 128px;
+        }
+
+        &[type="text"] {
+            width: 256px;
+        }
+    }
+}
