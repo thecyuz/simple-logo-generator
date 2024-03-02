@@ -1,9 +1,5 @@
 name: Update Fonts List
 
-on:
-  schedule:
-    - cron: '0 9 * * *'
-
 jobs:
   get-fonts-list:
     runs-on: ubuntu-latest
